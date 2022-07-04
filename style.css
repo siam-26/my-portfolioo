@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+h1{
+    font-size:50px;
+}
+.sp1{
+    color:orange;
+
+}
+.flexible-container{
+    display: flex;
+}
+.half-w{
+    width:50%;
+    padding-left:5%;
+}
+.half-w img{
+    width:80%;
+}
+.hireme-btn{
+    border:1px solid orange;
+    text-decoration: none;
+    background-color:orange;
+    padding:10px 40px;
+    color: white;
+    border-radius: 5px;
+    background-image:linear-gradient(orange,tomato);
+    font-weight: 700;
+}
+.top-section{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display:flex;
+    margin-bottom: 130px;
+   
+}
+.img2{
+    border-radius: 50%;
+}
+.ww{
+    padding-right:6%;
+}
+.dreambig{
+    background-image:url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.little-experience{
+    color:orange;
+}
+.experience-item{
+    box-shadow:10px 10px 40px gray;
+    width:40%;
+    margin:40px;
+   
+    padding:20px; 
+    border-radius: 5px;
+    
+}
+h2{
+    font-size:30px;
+}
+.ex-area-heading{
+    font-size:40px;
+}
+.experience-area{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top:70px;
+}
+#full{
+    border-left:7px solid tomato;
+}
+#juniour{
+    border-left:7px solid blue;
+
+}
+footer p{
+    text-align:center;
+    margin-top:100px;
+}
